@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="420" viewBox="0 0 1280 420" role="img" aria-label="WuruOS: Android 16 sin Google">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b1f1a"/>
+      <stop offset="0.55" stop-color="#0f3a2f"/>
+      <stop offset="1" stop-color="#145c48"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.78" cy="0.45" r="0.45">
+      <stop offset="0" stop-color="#3ddc84" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#3ddc84" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="screen" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1d4d40"/>
+      <stop offset="1" stop-color="#0e2b24"/>
+    </linearGradient>
+    <linearGradient id="word" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#b9f6d3"/>
+    </linearGradient>
+    <clipPath id="card"><rect width="1280" height="420" rx="24"/></clipPath>
+  </defs>
+
+  <g clip-path="url(#card)">
+    <rect width="1280" height="420" fill="url(#bg)"/>
+    <rect width="1280" height="420" fill="url(#glow)"/>
+    <!-- trama de puntos -->
+    <g fill="#ffffff" fill-opacity="0.05">
+      <circle cx="60" cy="370" r="2"/><circle cx="90" cy="370" r="2"/><circle cx="120" cy="370" r="2"/><circle cx="150" cy="370" r="2"/>
+      <circle cx="60" cy="340" r="2"/><circle cx="90" cy="340" r="2"/><circle cx="120" cy="340" r="2"/>
+      <circle cx="60" cy="310" r="2"/><circle cx="90" cy="310" r="2"/>
+      <circle cx="60" cy="280" r="2"/>
+    </g>
+
+    <!-- texto -->
+    <g font-family="Inter, 'Segoe UI', -apple-system, Roboto, Helvetica, Arial, sans-serif">
+      <text x="88" y="178" font-size="104" font-weight="800" letter-spacing="-3" fill="url(#word)">WuruOS</text>
+      <text x="92" y="228" font-size="30" font-weight="500" fill="#d7efe4">Android 16 sin Google</text>
+      <text x="92" y="264" font-size="20" fill="#8fbfad">para la Alldocube iPlay 50 Mini Pro</text>
+
+      <g font-size="17" font-weight="600" fill="#e8fff3">
+        <rect x="92" y="300" width="98" height="38" rx="19" fill="#3ddc84" fill-opacity="0.16" stroke="#3ddc84" stroke-opacity="0.5"/>
+        <text x="141" y="325" text-anchor="middle">microG</text>
+        <rect x="202" y="300" width="100" height="38" rx="19" fill="#3ddc84" fill-opacity="0.16" stroke="#3ddc84" stroke-opacity="0.5"/>
+        <text x="252" y="325" text-anchor="middle">F-Droid</text>
+        <rect x="314" y="300" width="108" height="38" rx="19" fill="#3ddc84" fill-opacity="0.16" stroke="#3ddc84" stroke-opacity="0.5"/>
+        <text x="368" y="325" text-anchor="middle">Cromite</text>
+        <rect x="434" y="300" width="132" height="38" rx="19" fill="#3ddc84" fill-opacity="0.16" stroke="#3ddc84" stroke-opacity="0.5"/>
+        <text x="500" y="325" text-anchor="middle">OTA A/B</text>
+      </g>
+    </g>
+
+    <!-- tablet en horizontal -->
+    <g transform="translate(760 70) rotate(-4 220 140)">
+      <rect x="0" y="0" width="440" height="280" rx="26" fill="#071512" stroke="#3ddc84" stroke-opacity="0.35" stroke-width="2"/>
+      <rect x="16" y="16" width="408" height="248" rx="14" fill="url(#screen)"/>
+      <!-- barra de estado -->
+      <rect x="34" y="28" width="38" height="6" rx="3" fill="#ffffff" fill-opacity="0.45"/>
+      <rect x="370" y="28" width="36" height="6" rx="3" fill="#ffffff" fill-opacity="0.45"/>
+      <!-- escritorio: todas las apps en la pantalla -->
+      <g>
+        <rect x="46"  y="54" width="40" height="40" rx="12" fill="#3ddc84"/>
+        <rect x="110" y="54" width="40" height="40" rx="12" fill="#64b5f6"/>
+        <rect x="174" y="54" width="40" height="40" rx="12" fill="#ffb74d"/>
+        <rect x="238" y="54" width="40" height="40" rx="12" fill="#e57373"/>
+        <rect x="302" y="54" width="40" height="40" rx="12" fill="#ba68c8"/>
+        <rect x="366" y="54" width="40" height="40" rx="12" fill="#4db6ac"/>
+
+        <rect x="46"  y="114" width="40" height="40" rx="12" fill="#ffd54f"/>
+        <rect x="110" y="114" width="40" height="40" rx="12" fill="#81c784"/>
+        <rect x="174" y="114" width="40" height="40" rx="12" fill="#4fc3f7"/>
+        <rect x="238" y="114" width="40" height="40" rx="12" fill="#f06292"/>
+        <rect x="302" y="114" width="40" height="40" rx="12" fill="#a1887f"/>
+        <rect x="366" y="114" width="40" height="40" rx="12" fill="#9575cd"/>
+
+        <rect x="46"  y="174" width="40" height="40" rx="12" fill="#4dd0e1"/>
+        <rect x="110" y="174" width="40" height="40" rx="12" fill="#ff8a65"/>
+        <rect x="174" y="174" width="40" height="40" rx="12" fill="#aed581"/>
+        <rect x="238" y="174" width="40" height="40" rx="12" fill="#90a4ae" fill-opacity="0.6"/>
+      </g>
+      <!-- barra de gestos -->
+      <rect x="180" y="244" width="80" height="6" rx="3" fill="#ffffff" fill-opacity="0.55"/>
+    </g>
+  </g>
+</svg>

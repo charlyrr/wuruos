@@ -1,8 +1,6 @@
 <div align="center">
 
-# WuruOS
-
-**Android 16 sin Google para la Alldocube iPlay 50 Mini Pro**
+<img src="assets/banner.svg" alt="WuruOS: Android 16 sin Google para la Alldocube iPlay 50 Mini Pro" width="100%">
 
 [![Última versión](https://img.shields.io/github/v/release/charlyrr/wuruos?label=versi%C3%B3n&color=2e7d32)](https://github.com/charlyrr/wuruos/releases/latest)
 ![Android 16](https://img.shields.io/badge/Android-16-3ddc84?logo=android&logoColor=white)
