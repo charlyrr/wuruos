@@ -6,7 +6,7 @@
 
 [![Última versión](https://img.shields.io/github/v/release/charlyrr/wuruos?label=versi%C3%B3n&color=2e7d32)](https://github.com/charlyrr/wuruos/releases/latest)
 ![Android 16](https://img.shields.io/badge/Android-16-3ddc84?logo=android&logoColor=white)
-![Parche de seguridad](https://img.shields.io/badge/parche-diciembre%202025-1565c0)
+![Parche de seguridad](https://img.shields.io/badge/parche-junio%202025-1565c0)
 ![Sin Google](https://img.shields.io/badge/Google-no-c62828)
 [![Descargas](https://img.shields.io/github/downloads/charlyrr/wuruos/total?label=descargas&color=555)](https://github.com/charlyrr/wuruos/releases)
 
