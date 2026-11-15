@@ -8,11 +8,13 @@
 ![Sin Google](https://img.shields.io/badge/Google-no-c62828)
 [![Descargas](https://img.shields.io/github/downloads/charlyrr/wuruos/total?label=descargas&color=555)](https://github.com/charlyrr/wuruos/releases)
 
-[**Descargar la última versión**](https://github.com/charlyrr/wuruos/releases/latest)
+<br>
+
+<a href="https://github.com/charlyrr/wuruos/releases/latest"><img src="https://img.shields.io/badge/Descargar-%C3%BAltima%20versi%C3%B3n-2e7d32?style=for-the-badge&logo=android&logoColor=white" alt="Descargar la última versión" height="36"></a>
 
 </div>
 
----
+<br>
 
 WuruOS es una ROM personal: una imagen genérica de sistema (GSI) basada en **AOSP** y en los parches de compatibilidad de **TrebleDroid**. Sigue la filosofía de CalyxOS: Android limpio, sin servicios de Google, con alternativas libres ya instaladas y firmado con claves propias.
 
@@ -20,16 +22,64 @@ Este repositorio solo aloja las versiones publicadas.
 
 ## Qué trae
 
-| | |
-|---|---|
-| 🛡️ **Sin Google** | Ni Google Apps ni Play Services. La hora (NTP) y la comprobación de conexión no llaman a servidores de Google. |
-| 🧩 **microG** | Compatibilidad con las apps que necesitan los servicios de Google: notificaciones push y ubicación por red. |
-| 📦 **F-Droid** | Con la extensión privilegiada, que actualiza las apps en silencio, y los repositorios de IzzyOnDroid, FUTO y Brave ya añadidos. |
-| 🌐 **Cromite** | Navegador y WebView basados en Chromium, sin Google y con bloqueo de anuncios. |
-| 💾 **Seedvault** | Copias de seguridad cifradas de apps y datos. |
-| 🔄 **Actualizaciones desde la tablet** | La app *Actualizaciones* descarga e instala cada versión nueva en el otro slot (A/B), mientras sigues usando la tablet. La versión anterior se queda en el slot de antes. |
-| 🔑 **Firma propia** | Todo el sistema va firmado con claves propias, y el aviso de actualización también lleva firma, así que la tablet solo acepta versiones auténticas. |
-| ⚡ **Ajustada al Helio G99** | Interfaz precompilada, sin desenfoques que la GPU no aguanta y con procesos precreados para que las apps abran antes. |
+<table>
+<tr>
+<td width="50%" valign="top">
+
+### 🛡️ Sin Google
+Ni Google Apps ni Play Services. La hora (NTP) y la comprobación de conexión no llaman a servidores de Google.
+
+</td>
+<td width="50%" valign="top">
+
+### 🧩 microG
+Compatibilidad con las apps que necesitan los servicios de Google: notificaciones push y ubicación por red.
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### 📦 F-Droid
+Con la extensión privilegiada, que actualiza las apps en silencio, y los repositorios de IzzyOnDroid, FUTO y Brave ya añadidos.
+
+</td>
+<td width="50%" valign="top">
+
+### 🌐 Cromite
+Navegador y WebView basados en Chromium, sin Google y con bloqueo de anuncios.
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### 🔄 Actualizaciones OTA
+La app *Actualizaciones* instala cada versión en el otro slot (A/B) mientras sigues usando la tablet. La anterior se queda en el slot de antes.
+
+</td>
+<td width="50%" valign="top">
+
+### 💾 Seedvault
+Copias de seguridad cifradas de apps y datos.
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### 🔑 Firma propia
+Todo el sistema va firmado con claves propias, y el aviso de actualización también, así que la tablet solo acepta versiones auténticas.
+
+</td>
+<td width="50%" valign="top">
+
+### ⚡ Ajustada al Helio G99
+Interfaz precompilada, sin desenfoques que la GPU no aguanta y con procesos precreados para que las apps abran antes.
+
+</td>
+</tr>
+</table>
 
 ## Dispositivo
 
